@@ -1,0 +1,178 @@
+body{
+
+    font-family: 'Merriweather', serif;
+
+}
+.banner-part{
+    
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    background-image: url(Banner\ Image.png);
+}
+
+    .year-work{
+        color: #FFF;
+        text-align: center;
+        font-size: 72px;
+font-weight: 900;
+    }
+
+#happy{
+    color: #FFF;
+    padding-top: 120px;
+        text-align: center;
+    font-size: 32px;
+    font-weight: 400;  
+}
+
+.class-h2{
+    text-align: center;
+}
+#full-fill{
+    color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 88px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+#our-holi{
+    color: #F00;
+    text-align: center;
+
+}
+#all-cat{
+    text-align: center;  
+}
+
+    
+.new-photo{
+     
+    margin-left: 250px;
+    width: 802.9px;
+height: 500px;
+flex-shrink: 0;
+fill: url(<path-to-image>), lightgray 50% / cover no-repeat;
+
+}
+
+
+
+
+
+.mid-night{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 1320px;
+    color: #FFF;
+height: 600px;
+    background-image: url(Vectorrr.png);
+    
+}
+.content-kk{
+    padding-top: 150px;
+    padding-left: 150px;
+}
+.group-70{
+ padding-top: 100px;
+padding-left: 180px;
+}
+
+
+
+span{
+    color: #F00;
+    
+}
+#button{
+    background-color: #F00;
+    border-radius: 8px;
+    color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+padding: 10px 20px;
+line-height: normal;
+text-transform: uppercase;
+}
+.park-hotel{
+background-image: linear-gradient(rgba(202, 55, 55, 0.493),rgba(255, 72, 0, 0.144));
+width: 1320px;
+height: 482px;
+flex-shrink: 0;
+}
+.park-side{
+    text-align: center;
+    padding-top: 50px; 
+    color: #070211;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 56px;
+text-transform: capitalize;
+}
+
+
+.choose-part{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+}
+
+#best{
+    color:red;
+}
+
+.sub-scribe{
+    text-align: center;
+    width: 1320px;
+height: 616px;
+padding-top: 70px;
+flex-shrink: 0;
+border-radius: 16px;
+background: rgba(255, 0, 0, 0.05);
+}
+#mail{
+padding: 15px 35px;
+    border-radius: 50px;
+background: #FFF;
+}
+#submit{
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: #FFF;
+    padding: 15px 35px;
+text-align: center;
+font-weight: 600;
+
+}
+
+.footer{
+    background-color: black;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+}
+.contact{
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    text-align: center;
+    margin-bottom: 20px;
+}
+.social_media{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.unsubscribe{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+}
