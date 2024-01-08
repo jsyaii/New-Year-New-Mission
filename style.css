@@ -81,7 +81,10 @@ height: 600px;
  padding-top: 100px;
 padding-left: 180px;
 }
-
+#join{
+    color: white;
+    background-color: #070211;
+}
 
 
 span{
@@ -125,9 +128,7 @@ text-transform: capitalize;
     gap: 15px;
 }
 
-#best{
-    color:red;
-}
+
 
 .sub-scribe{
     text-align: center;
@@ -153,26 +154,137 @@ font-weight: 600;
 
 }
 
-.footer{
+.best-offer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-left: 25px;
+}
+
+#new{
+    color:red;
+}
+#two{
+    color:red;
+}
+#best{
+    color:red;
+    padding-right: 1200px;
+}
+#in{
+    padding-right: 500px; 
+}
+#aw{
+    padding-right: 470px;
+}
+
+
+
+.elli-pse img{
+
+    border: 5px solid red;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+
+.holiday_sale{
+    text-align: center;
+}
+.holiday_sale > h5{
+    font-size: 24px;
+    font-weight: 500px;
+}
+.holiday_sale h1{
+    font-size: 72px;
+    font-weight: 900;
+}
+.holiday_sale>h1 span{
+    color: #F00;
+}
+.holiday_sale p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.discount_img{
+    position: relative;
+    bottom: 100px;
+     display: grid; 
+    grid-template-columns:repeat(3,1fr); 
+    
+}
+.win-box{
+    position: relative;
+    top: 225px;
+    padding-bottom: 140px;
+    
+}
+.fifty_per{
+    position: relative;
+    right: 590px;
+    top: 270px;
+    
+}
+.sopping_per{
+    position: relative;
+    left: 0px;
+    top: 230px;
+    
+}
+.red_color img{
+    width: 100%;
+    position: relative;
+    bottom: 100px;
+}
+
+
+
+
+
+
+/* footer */
+
+.done-work{
+color:white;
+
+}
+.end-game{
     background-color: black;
-    color: #FFFFFF;
+    color: white;
     padding-bottom: 30px;
 }
-.contact{
+.big-build{
     padding-top: 50px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     text-align: center;
     margin-bottom: 20px;
 }
-.social_media{
+.social-mid{
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
 }
-.unsubscribe{
+.rights{
     margin-top: 30px;
     margin-bottom: 20px;
     display: flex;
     justify-content: space-around;
+}
+#kp{
+    color: #FFF;
+}
+#rn{
+    color: #FFF;
+}
+#jj{
+    color: #FFF;
+}
+#rr{
+    color: #FFF;
+}
+#rf{
+    color: #FFF;
 }
